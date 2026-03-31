@@ -1,0 +1,25 @@
+fluter refarsn api
+ctrl shift R yapabielcgimiz değişkleri gösterir
+ilk statelesı sonra statefull widgetı öğrendik
+
+pub.dev  fluter paketlerini indirebilcegimiz yer
+HexColor cok kullanılışlı ren paketi
+
+flutter pub add <paket ismi>
+GoogleFonts tek başına bir tezt styledır
+
+pexels ucretisz güzel resimler
+alt shift F kodu güzel yapıya sokar
+
+Runtime
+Compile-time farkını sor
+
+dart todo orenk todolar var
+
+dart from json herhangi bir todo nesnesinin sınıfnı orenk olsutur
+
+firebase core kuurlşumada alzım firebase işlemlseri için
+
+firebase auth paketi  =fireabase autchenbtion paketini kullanamızı sağlar
+
+ User? get currentUser => _firebaseAuth.currentUser;  bu yapı ne anlama geli

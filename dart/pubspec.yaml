@@ -1,0 +1,7 @@
+name: "demo_projee"
+environment:
+  sdk: '^3.10.1'
+
+dependencies:
+  meta:
+  

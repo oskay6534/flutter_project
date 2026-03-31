@@ -1,0 +1,246 @@
+
+
+
+
+
+void fun1(String s1){
+ 
+  print("fun1 cağrıldı $s1");
+}
+
+fun2(String s1,int s2)=>print("fun2 cagrildi $s1");
+fun3({int s1=0,int s2=0}){
+  print(s1+s2);
+}
+
+class NumClass {
+  int? num=20;
+}
+
+Future<String> getDataFromServer() async{
+  return "";
+}
+
+class User{
+String? name; //default
+static int a=5;
+
+User({this.name}){
+  
+}
+ 
+}
+enum UserType{
+  regular,
+  admin,
+  quest,
+}
+
+ main(List<String> args) async {
+  print(User.a);
+ var u=User();
+ User u1=User();
+ User u2= new User();
+ var r=  getDataFromServer();
+ var x=await r;
+
+fun1("emre");
+ 
+("emre",14);
+fun3(s1:20,s2:30);
+
+NumClass? n;
+ // hatalı print(n.num);
+int a=n?.num ?? 25;
+print(n?.num);
+print(n?.num ?? 25); // nulsa 25 gir    
+
+NumClass? n1;
+n1 ??=NumClass();
+
+int? i1=NumClass().num;
+print(i1);
+i1=null;
+print(i1);
+
+var x1=17;
+x1%2==0 ? print("cift") :print("tek");
+
+var result=x1%2==0 ? "deger1":"deger2";
+print(result);
+dynamic s11="merhaba"; // tip yine dynamic
+var s22="merhaba";     // tip string oldu
+
+if(s22 is String){
+  print("s22 ifadesi bir string tipidir");
+}
+String ss1="emre";
+String ss2="emre";
+
+if(ss1 ==ss2){
+  print("degerler bribine eşit");
+}
+else {
+  print("degerler birbne eşit deigl");
+}
+
+String ad="mehmet";
+
+switch(ad){
+  case "mehmet" :print("değişklen adı emre");
+  break;
+}
+/* for(var i=0;i<10;i++){
+  print(i);
+}
+ */
+ List<int> l1=[1,25,38,47,5];
+ for(int i=0;i<l1.length;i++){
+  //print(i);
+  print(l1[i]);
+ }
+// for(var item in l1){
+//   print(item);
+// }
+
+l1.forEach((element) {
+ print(element); 
+});
+
+List l21=[10,30,"karpuz"];
+List<dynamic> l11=[10,25,"meyve"];
+List<int> intaa=[4,5,12];
+List<int> intaa2=[11,45,03];
+intaa.add(48);
+intaa.addAll(intaa2);
+List <String> straa=["babu","tatu","lalu"];
+List<String> straaa=["turpp",...straa];
+
+print("aaaaaaaaaa");
+print(intaa);
+
+bool addUser=true;
+
+List<String> pro =[
+  "s1",
+   "s2",
+   if(addUser) "kullanıcı girisi",
+];
+
+Set<String> s14={
+  "isim1",
+  "isim2",
+};
+
+
+Map<String,String> m={};
+m["eleman1"]="salih";
+print(m);
+
+Map<String,String> adlar={"user1":"Ali","user2":"tarik"};
+
+adlar["user3"]="mustafa"; 
+for(var item in adlar.keys){
+  print(item);
+}
+
+
+
+
+
+/* String? s1=null;
+String? s2;
+String s3=s1 ?? "bossa bu degeri ver";
+print(s2);
+print(s1 ?? "bu deger içi bos");
+print(s3); */
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* String m1="12";
+  const degismez=15.74;
+  final degismez2=true;
+  int s1=int.parse(m1);
+  double d1=double.parse(m1);
+
+  String m2="12.2";
+  var? s2=int.tryParse(m2); //parse edemsze null ata; //int yapamzyız
+  double d2=double.parse(m2);
+
+  String donusum=s1.toString();
+  String pi=3.19999.toString();
+  String pi_iki_basamak=3.19999.toStringAsExponential();
+  print("$pi");
+  print("$pi_iki_basamak"); */
+
+
+
+
+
+
+/*   print(m1);
+print("");
+  print("$s1"); */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+  var s1=22;
+  var m2="Surk";
+ print(s1);
+  print("merhaba adım $m2 soyadım $s1 ");
+  
+  String m1="cift'in";
+  String m22='tek "trineak içi"';
+  print("$m1 $m22");
+    
+  String cok=""" cok
+         satirli metin""";  
+         print(cok);
+   print("$cok");       */
+  
+  
+  
+  
+  
+  /* String s1="merhaba";
+  String s2;
+ int a=3;
+ double aa=3.25;
+ bool x=true;
+
+ var a2="tip belrtmedim ama string";
+
+ var a8="emre";
+ a8="memet";
+
+ var a25; // ilk başta vermzsen dynamic olur
+ a25=false;
+ a25=15;
+
+ dynamic a745=false;
+ a745="metin";
+ a745=7.785; */
+}

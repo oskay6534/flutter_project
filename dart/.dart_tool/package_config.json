@@ -1,0 +1,22 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "meta",
+      "rootUri": "file:///C:/Users/Oskay/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "demo_projee",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.10.1",
+  "flutterRoot": "file:///C:/src/flutter",
+  "flutterVersion": "3.38.3",
+  "pubCache": "file:///C:/Users/Oskay/AppData/Local/Pub/Cache"
+}
