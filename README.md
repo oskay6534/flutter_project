@@ -71,9 +71,12 @@ flutter_project/
 
 ## Tech Stack
 
-**Language and framework:** Dart, Flutter  
-**Backend integration:** REST APIs, JSON, HTTP  
-**Firebase:** Firebase Core, Firebase Authentication, Cloud Firestore  
+**Language and framework:** Dart, Flutter
+
+**Backend integration:** REST APIs, JSON, HTTP
+
+**Firebase:** Firebase Core, Firebase Authentication, Cloud Firestore
+
 **UI:** Material Design, ThemeData, reusable widgets, local assets and Google Fonts
 
 ## Notes
